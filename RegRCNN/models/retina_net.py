@@ -16,8 +16,8 @@
 
 """Retina Net. According to https://arxiv.org/abs/1708.02002"""
 
-import utils.model_utils as mutils
-import utils.exp_utils as utils
+import RegRCNN.utils.model_utils as mutils
+import RegRCNN.utils.exp_utils as utils
 import sys
 
 import numpy as np
@@ -27,7 +27,7 @@ import torch.nn.functional as F
 import torch.utils
 
 sys.path.append('..')
-from custom_extensions.nms import nms
+from RegRCNN.custom_extensions.nms import nms
 
 class Classifier(nn.Module):
 

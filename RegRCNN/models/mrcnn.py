@@ -28,8 +28,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.utils
 
-import utils.model_utils as mutils
-import utils.exp_utils as utils
+import RegRCNN.utils.model_utils as mutils
+import RegRCNN.utils.exp_utils as utils
 
 
 

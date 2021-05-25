@@ -24,8 +24,8 @@ import torch.nn.functional as F
 from torch.autograd import Variable
 from scipy.ndimage.measurements import label as lb
 
-import utils.exp_utils as utils
-import utils.model_utils as mutils
+import RegRCNN.utils.exp_utils as utils
+import RegRCNN.utils.model_utils as mutils
 
 
 class net(nn.Module):

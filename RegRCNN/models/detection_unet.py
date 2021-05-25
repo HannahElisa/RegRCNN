@@ -11,8 +11,8 @@ import torch.nn.functional as F
 
 
 
-import utils.exp_utils as utils
-import utils.model_utils as mutils
+import RegRCNN.utils.exp_utils as utils
+import RegRCNN.utils.model_utils as mutils
 
 '''
 Use nn.DataParallel to use more than one GPU

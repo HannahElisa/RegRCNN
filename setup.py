@@ -62,7 +62,7 @@ if __name__ == "__main__":
           install_requires=install_reqs,
           )
 
-    custom_exts =  ["custom_extensions/nms", "custom_extensions/roi_align/2D", "custom_extensions/roi_align/3D"]
+    custom_exts =  ["RegRCNN/custom_extensions/nms", "RegRCNN/custom_extensions/roi_align/2D", "RegRCNN/custom_extensions/roi_align/3D"]
     for path in custom_exts:
         try:
             install_custom_ext(path)
