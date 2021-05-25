@@ -63,10 +63,10 @@ if __name__ == "__main__":
           )
 
     custom_exts =  ["RegRCNN/custom_extensions/nms", "RegRCNN/custom_extensions/roi_align/2D", "RegRCNN/custom_extensions/roi_align/3D"]
-    for path in custom_exts:
-        try:
-            install_custom_ext(path)
-        except Exception as e:
-            print("FAILED to install custom extension {} due to Error:\n{}".format(path, e))
+    #for path in custom_exts:
+    #    try:
+    #        install_custom_ext(path)
+    #    except Exception as e:
+    #        print("FAILED to install custom extension {} due to Error:\n{}".format(path, e))
 
     clean()

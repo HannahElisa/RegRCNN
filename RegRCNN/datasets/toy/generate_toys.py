@@ -19,7 +19,7 @@
     Settings are configured in configs file.
 """
 
-import plotting as plg
+import RegRCNN.plotting as plg
 import os
 import shutil
 import warnings
@@ -29,7 +29,7 @@ from multiprocessing import Pool
 import numpy as np
 import pandas as pd
 
-import data_manager as dmanager
+import RegRCNN.data_manager as dmanager
 
 
 for msg in ["RuntimeWarning: divide by zero encountered in true_divide.*",]:

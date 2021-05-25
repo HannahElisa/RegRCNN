@@ -24,9 +24,9 @@ import torch
 from scipy.stats import norm
 from collections import OrderedDict
 
-import plotting as plg
-import utils.model_utils as mutils
-import utils.exp_utils as utils
+from regrcnn.RegRCNN import plotting as plg
+import RegRCNN.utils.model_utils as mutils
+import RegRCNN.utils.exp_utils as utils
 
 
 def get_mirrored_patch_crops(patch_crops, org_img_shape):

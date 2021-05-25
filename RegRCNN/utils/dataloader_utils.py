@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ==============================================================================
-import plotting as plg
+import RegRCNN.plotting as plg
 
 import os
 from multiprocessing import Pool, Lock
@@ -27,8 +27,8 @@ from scipy.ndimage.measurements import label as lb
 from torch.utils.data import Dataset as torchDataset
 from batchgenerators.dataloading.data_loader import SlimDataLoaderBase
 
-import utils.exp_utils as utils
-import data_manager as dmanager
+import RegRCNN.utils.exp_utils as utils
+import RegRCNN.data_manager as dmanager
 
 
 for msg in ["This figure includes Axes that are not compatible with tight_layout",

@@ -37,7 +37,7 @@ from skimage.transform import resize
 
 sys.path.append(os.path.dirname(os.path.realpath(__file__)))
 sys.path.append('../..')
-import data_manager as dmanager
+import RegRCNN.data_manager as dmanager
 
 class AttributeDict(dict):
     __getattr__ = dict.__getitem__

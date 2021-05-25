@@ -30,8 +30,8 @@ import torch
 
 import tqdm
 
-from custom_extensions.nms import nms
-from custom_extensions.roi_align import roi_align
+from RegRCNN.custom_extensions.nms import nms
+from RegRCNN.custom_extensions.roi_align import roi_align
 
 ############################################################
 #  Segmentation Processing

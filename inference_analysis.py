@@ -1,6 +1,6 @@
 """for presentations etc"""
 
-import plotting as plg
+from regrcnn.RegRCNN import plotting as plg
 
 import sys
 import os
@@ -10,8 +10,8 @@ import numpy as np
 import pandas as pd
 import torch
 
-import utils.exp_utils as utils
-import utils.model_utils as mutils
+import RegRCNN.utils.exp_utils as utils
+import RegRCNN.utils.model_utils as mutils
 from predictor import Predictor
 from evaluator import Evaluator
 

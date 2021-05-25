@@ -18,7 +18,7 @@
     refer to parse args below to see options for execution.
 """
 
-import plotting as plg
+import RegRCNN.plotting as plg
 
 import os
 import warnings
@@ -27,7 +27,7 @@ import time
 
 import torch
 
-import utils.exp_utils as utils
+import RegRCNN.utils.exp_utils as utils
 from evaluator import Evaluator
 from predictor import Predictor
 

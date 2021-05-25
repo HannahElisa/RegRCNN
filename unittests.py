@@ -30,7 +30,7 @@ import torchvision as tv
 
 import tqdm
 
-import plotting as plg
+from regrcnn.RegRCNN import plotting as plg
 import utils.exp_utils as utils
 import utils.model_utils as mutils
 

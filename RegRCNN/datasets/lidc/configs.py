@@ -20,7 +20,8 @@ from collections import namedtuple
 sys.path.append(os.path.dirname(os.path.realpath(__file__)))
 import numpy as np
 sys.path.append(os.path.dirname(os.path.realpath(__file__))+"/../..")
-from default_configs import DefaultConfigs
+from RegRCNN.default_configs import DefaultConfigs
+
 
 # legends, nested classes are not handled well in multiprocessing! hence, Label class def in outer scope
 Label = namedtuple("Label", ['id', 'name', 'color', 'm_scores']) # m_scores = malignancy scores

@@ -26,10 +26,8 @@ from sklearn.metrics import roc_curve, precision_recall_curve
 from sklearn.metrics import mean_squared_error, mean_absolute_error, accuracy_score
 import torch
 
-import utils.model_utils as mutils
-import plotting as plg
-
-import warnings
+import RegRCNN.utils.model_utils as mutils
+import RegRCNN.plotting as plg
 
 
 def get_roi_ap_from_df(inputs):

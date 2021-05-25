@@ -16,7 +16,7 @@
 
 import sys
 sys.path.append('../') # works on cluster indep from where sbatch job is started
-import plotting as plg
+import RegRCNN.plotting as plg
 
 import numpy as np
 import os

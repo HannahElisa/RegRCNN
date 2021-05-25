@@ -11,6 +11,6 @@
 sandbox/*
 .idea/*
 __pycache__/
-
+regrcnn_env/*
 
 !/assets/*

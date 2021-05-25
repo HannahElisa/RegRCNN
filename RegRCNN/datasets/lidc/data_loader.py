@@ -21,7 +21,7 @@ LIDC 4-fold annotations storage capacity problem: keep segmentation gts compress
 
 '''
 
-import plotting as plg
+import RegRCNN.plotting as plg
 
 import os
 import pickle
@@ -40,9 +40,9 @@ from batchgenerators.transforms.spatial_transforms import SpatialTransform
 from batchgenerators.transforms.crop_and_pad_transforms import CenterCropTransform
 
 
-import utils.dataloader_utils as dutils
-from utils.dataloader_utils import ConvertSegToBoundingBoxCoordinates
-from utils.dataloader_utils import BatchGenerator as BatchGeneratorParent
+import RegRCNN.utils.dataloader_utils as dutils
+from RegRCNN.utils.dataloader_utils import ConvertSegToBoundingBoxCoordinates
+from RegRCNN.utils.dataloader_utils import BatchGenerator as BatchGeneratorParent
 
 def save_obj(obj, name):
     """Pickle a python object."""
